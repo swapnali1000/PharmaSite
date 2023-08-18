@@ -8,3 +8,12 @@
     text-decoration: none;
     color: black;
   }
+  .btn-view{
+    margin-bottom: -200px;
+    width: 100px;
+  }
+  .symb{
+    margin-left: auto;
+    
+    display: block;
+  }
