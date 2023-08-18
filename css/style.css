@@ -1,1 +1,10 @@
-
+.nav{
+    background-color: skyblue;
+    justify-content: space-evenly;
+    height: 50px;
+  }  
+  .btn{
+    border-radius: 10px;
+    text-decoration: none;
+    color: black;
+  }
