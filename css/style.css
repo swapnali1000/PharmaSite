@@ -18,6 +18,9 @@
     display: block;
   }
   .logo{
-    margin-left: -150px;
+    margin-left: -130px;
     border-radius: 10px;
+  }
+  .know-health{
+    margin-top: 120px;
   }
