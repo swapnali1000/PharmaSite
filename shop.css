@@ -1,0 +1,12 @@
+.title{
+    text-align: center;
+}
+.body_light{
+    color: black;
+    background-color:aliceblue;
+}
+.body_dark{
+    color: white;
+    background-color:  #336699;
+
+}
