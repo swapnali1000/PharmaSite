@@ -1,7 +1,7 @@
 .nav{
     background-color: skyblue;
     justify-content: space-evenly;
-    height: 50px;
+    height: 90px;
   }  
   .btn{
     border-radius: 10px;
@@ -16,4 +16,8 @@
     margin-left: auto;
     
     display: block;
+  }
+  .logo{
+    margin-left: -150px;
+    border-radius: 10px;
   }
