@@ -5,9 +5,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Bootstrap demo</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="stylesheet" href="./../css/style.css"/>
   </head>
   <body class="bg-body-secondary">
-  
+    <nav class="nav p-2 shadow-lg p-3 mb-5 bg-body-primary rounded fixed-top">
+      <div>
+        <img src="./../img/pharmamall.jpeg" alt="Logo" class="logo" width="95" height="65" class="d-inline-block align-text-top"></div>
+      <div class="d-flex flex-column">
+        <div>
+          <form class="d-flex" role="search">
+        <input class="form-control me-2" type="search"  placeholder="Search for Product or Brand"  aria-label="Search">
+      </form></div>
+  <div class="d-flex flex-row"><a class="nav-link btn p-5" href="./order-medicine.html">Order Medicine</a>
+  <a class="nav-link btn p-5" href="./shop-by-category.html">Shop by Category</a>
+  <a class="nav-link btn p-5" href="./health-services.html">Health Services</a>
+  <a class="nav-link btn p-5" href="./health-article.html">Health Articels</a>
+  <a class="nav-link btn p-5" href="./about-us.html">About Us</a>
+  </div>
+  </div>
+  <div >
+    <a href="./order-medicine.html"><button class="btn btn-info"> <img src="./../img/cart.png" height="40" class="p-2"> Cart</button></a>
+    <a href="./login.html"><button class="btn btn-info"> <img src="./../img/user (1).png" height="40" class="p-2"> Login</button></a>
+  </div>
+  </nav>
+  <div style="margin-top: 200px;" >
     <span class="d-block p-2 text-bg-success  m-3 ">feature article</span>
 
      <div class="container text-center">
@@ -156,5 +177,6 @@
   </div>
 </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+    </div>
   </body>
 </html>
