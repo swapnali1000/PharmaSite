@@ -12,27 +12,44 @@
       <link rel="stylesheet" href="./../css/style.css"/>
 </head>
 <body>
-    <div class="mx-auto p-2" style="width: 200px;">
+  <nav class="nav p-2 shadow-lg p-3 mb-5 bg-body-primary rounded fixed-top">
+    <div>
+      <img src="./../img/pharmamall.jpeg" alt="Logo" class="logo" width="95" height="65" class="d-inline-block align-text-top"></div>
+    <div class="d-flex flex-column">
+      <div>
+        <form class="d-flex" role="search">
+      <input class="form-control me-2" type="search"  placeholder="Search for Product or Brand"  aria-label="Search">
+    </form></div>
+<div class="d-flex flex-row"><a class="nav-link btn p-5" href="#">Order Medicine</a>
+<a class="nav-link btn p-5" href="./../shop.html">Shop by Category</a>
+<a class="nav-link btn p-5" href="#">Health Services</a>
+<a class="nav-link btn p-5" href="#">Health Articels</a>
+</div>
+</div>
+<div >
+  <a href="./order-medicine.html"><button class="btn btn-info"> <img src="./../img/cart.png" height="40" class="p-2"> Cart</button></a>
+  <a href="./login.html"><button class="btn btn-info"> <img src="./../img/user (1).png" height="40" class="p-2"> Login</button></a>
+</div>
+</nav>
+    <div class="ms-auto p-2 me-auto know-health" style="width: 200px;">
         <img src="./../img/know-health.jpeg">
     </div>
-    <div class="health-article d-flex flex-row" style="height: 400px;">
+    <div class="health-article d-flex flex-row" style="height: 400px;" >
       <img style="width: 400px;" src="./../img/R.jpeg">
-      <div class="health-article  bg-info text-light text-center" style="width: 100%;">
+      <div class="health-article text-secondary text-center" style="width: 100%; background-color:  #ccf5ff;" >
         <h1 >HEALTH ARTICALS</h1>
         <p>Welcome to Know Health, the one-stop destination of all your queries on health and wellbeing. Check out precious tips 
         on Natural Remedies, Beauty, Lifestyle problems, Food & Nutrition and Health & Fitness.
          Also get all the important info about all the common diseases and health conditions.</p>
+         <div class="mt-5">
          <button class="p-1 m-1 border-info" style="border-radius: 10px;">Wellness</button>
          <button class="p-1 m-1 border-info" style="border-radius: 10px;">Corona Virus</button>
-         <button class="p-1 m-1 border-info" style="border-radius: 10px;">Doctor's Speak</button>
-         <button class="p-1 m-1 border-info" style="border-radius: 10px;">Women's Health</button>
-         <button class="p-1 m-1 border-info" style="border-radius: 10px;">Diagnostic Info</button>
          <button class="p-1 m-1 border-info" style="border-radius: 10px;">Life style</button>
          <button class="p-1 m-1 border-info" style="border-radius: 10px;">Food & Nutrition</button>
          <button class="p-1 m-1 border-info" style="border-radius: 10px;">Health & Fitness</button>
          <button class="p-1 m-1 border-info" style="border-radius: 10px;">Beauty</button>
          <button class="p-1 m-1 border-info" style="border-radius: 10px;">Natural Remedy</button>
-         <button class="p-1 m-1 border-info" style="border-radius: 10px;">Disease</button></br>
+         <button class="p-1 m-1 border-info" style="border-radius: 10px;">Diseases</button></div></br>
         <a href="./../index.html"> <button type="button" class="btn btn-secondary btn-view text-light"><b>View</b></button></a>
          
       </div>
@@ -40,15 +57,15 @@
     </div>
     <div class="health-article d-flex my-3 flex-row" style="height: 400px;">
         <img style="width: 400px;" src="./../img/system.webp">
-        <div class="health-article  bg-secondary-emphasis text-light text-center" style="width: 100%;">
+        <div class="health-article text-light text-center" style="width: 100%; background-color: #e6fff9;">
           <h1 style="color:#666699;">SYSTEM CHECKER</h1>
           <p class="text-dark">A guiding tool to provide an interactive way to look on body parts and related diseases. Now you can know more about diseases related symptoms and read through recommended health articles</p>
-          <a href="./../index.html"> <button type="button" class="btn btn-secondary btn-view text-light"><b>View</b></button></a>
+          <a href="./../index.html"> <button type="button" class="btn btn-secondary btn-view text-light mt-5"><b>View</b></button></a>
         </div>
     </div>
     <div class="health-article d-flex my-3 flex-row" style="height: 400px;">
         <img style="width: 400px;" src="./../img/OIP (1).jpeg">
-        <div class="health-article  bg-secondary-emphasis text-light text-center" style="width: 100%;">
+        <div class="health-article  bg-secondary-emphasis text-light text-center" style="width: 100%; background-color: #f0f5f5;">
           <h1 style="color:#666699;">HEALTH TOOLS</h1>
           <p class="text-dark">A guiding tool to provide an interactive way to look on body parts and related diseases. Now you can know more about diseases related symptoms and read through recommended health articles</p>
          <div class="d-flex flex-row "> <img class="ms-3 rounded-circle" style="height:100px;" src="./../img/bmical.jpeg ">
@@ -58,6 +75,16 @@
           <a href="./../index.html"> <button type="button" class="btn btn-secondary btn-view text-light"><b>View</b></button></a>
         </div>
     </div>
+    <div class="health-article d-flex my-3 flex-row " style="height: 400px;">
+      <img style="width: 400px;" src="./../img/doctmat.webp">
+      <div class="health-article pt-5 bg-secondary-emphasis text-light text-center" style="width: 100%; background-color: #d1e0e0;">
+        <h1 style="color:#666699;">MEDICINE INFO & SUBSTITUTE</h1>
+        <p class="text-dark">Know your medicines throughly including drugs usage, drug effects, risk warnings, drugs interaction and contradictions.</br>
+        Save big, buy generic medicines with same composition at lower price in consultation with your docter</p>
+       
+        <a href="./../index.html"> <button type="button" class="btn btn-secondary btn-view text-light"><b>View</b></button></a>
+      </div>
+  </div>
     
 </body>
 </html>
