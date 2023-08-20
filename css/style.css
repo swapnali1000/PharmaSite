@@ -1,1 +1,19 @@
-
+.nav{
+    background-color: skyblue;
+    justify-content: space-evenly;
+    height: 50px;
+  }  
+  .btn{
+    border-radius: 10px;
+    text-decoration: none;
+    color: black;
+  }
+  .btn-view{
+    margin-bottom: -200px;
+    width: 100px;
+  }
+  .symb{
+    margin-left: auto;
+    
+    display: block;
+  }
