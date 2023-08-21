@@ -120,3 +120,13 @@ color: red;
     padding: 5px 10px;
     cursor: pointer;
   }
+  body {
+    background: aliceblue;
+    color: black;
+    transition: 0.5s ease-in-out;
+}
+
+.dark-mode {
+    background: rgb(14, 13, 42);
+    color: white;
+}
