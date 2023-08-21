@@ -7,3 +7,13 @@
 .body_dark{
     color: white;
     background-color:  #00b0e6;}
+    body {
+        background: aliceblue;
+        color: black;
+        transition: 0.5s ease-in-out;
+    }
+
+    .dark-mode {
+        background: rgb(14, 13, 42);
+        color: white;
+    }
