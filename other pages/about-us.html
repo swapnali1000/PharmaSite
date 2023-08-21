@@ -8,13 +8,13 @@
     <style>
         body {
             background: aliceblue;
-            color: black;
+            color: rgb(111, 110, 110);
             transition: 0.5s ease-in-out;
         }
 
         .dark-mode {
             background: rgb(14, 13, 42);
-            color: white;
+            color: rgb(212, 207, 207);
         }
 
         .block:hover {
@@ -41,7 +41,6 @@
         }
 
         .footerchild a {
-            color: grey;
             text-decoration: none;
         }
 
@@ -53,25 +52,48 @@
 
 <body id="toggleTheme">
 
+    <nav class="navbar navbar-expand-md bg-dark opacity-75 fixed-top">
+        <a class="navbar-brand p-1" href="#">
+
+
     <div class="d-flex justify-content-around bg-dark opacity-75 fixed-top p-1">
         <div style="width: 50px;">
+
             <img src="../img/pharmamall.jpeg" height="50" alt="logo">
-        </div>
-        <div>
-            <a href="./order-medicine.html" class=" text-light p-4 fs-5 text-decoration-none">Order Medicine</a>
-            <a href="./shop-by-category.html" class="text-light p-4 fs-5 text-decoration-none">Shop by Category</a>
-            <a href="./health-services.html" class="text-light p-5 fs-5 text-decoration-none">Health Services</a>
-            <a href="./article.html" class="text-light p-4 fs-5 text-decoration-none">Health Articels</a>
-            <a href="./about-us.html" class="text-light p-4 fs-5 text-decoration-none">About Us</a>
-        </div>
-        <button style="border-radius: 10px;border: none;" class="m-1" onclick="theme()">
-            <img src="../image/icons8-sun-24.png" height="30" width="30">
+        </a>
+        <button class="navbar-toggler bg-light" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
         </button>
-    </div>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto p-1">
+                <li class="nav-item">
+                    <a class="nav-link text-light fs-5" href="./order-medicine.html">Order Medicine</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-light fs-5" href="./shop-by-category.html">Shop by Category</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-light fs-5" href="./health-services.html">Health Services</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-light fs-5" href="./article.html">Health Articles</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-light fs-5" href="./about-us.html">About Us</a>
+                </li>
+            </ul>
+            <button style="border-radius: 10px; border: none;" class="btn btn-light m-1" onclick="theme()">
+                <img src="../image/icons8-sun-24.png" height="30" width="30">
+            </button>
+        </div>
+    </nav>
+    
+    
+    
     <div style="height:450px; background-image: url('../image/about.jpeg');background-size: cover;">
         
-        <div style="height:300px;width: 400px;" class="p-5 opacity-75">
-            <h1 class="text-primary">About Us</h1>
+        <div style="height:300px;width: 400px;" class="p-5">
+            <h1 class="text-primary mt-3">About Us</h1>
             <p>Sun Pharmaceutical Industries Ltd. (Sun Pharma) is the fourth largest specialty generic pharmaceutical
                 company in the world with global revenues of over US$ 5.1 billion.Supported by more than 40
                 manufacturing
@@ -89,26 +111,26 @@
             <img src="../image/bulb-logo-vector.jpg" height="100px" class="m-5 m-t-2"
                 style="border-radius: 50%;border: 1px solid orange;background-color: white;">
             <p class="text-center fs-5 " style="color: orange;">1983</p>
-            <p class="text-center text-secondary">Year Founded</p>
+            <p class="text-center">Year Founded</p>
         </div>
         <div style="height: 350px;width: 200px;" class="col-md-6 col-lg-4">
             <img src="../image/Analytics_Icon-2.png" height="100px" width="100px" class="p-3 m-5 m-t-2"
                 style="border: 1px solid rgb(22, 22, 111); border-radius: 50%;background-color: white;">
             <p class="text-center fs-5" style="color: rgb(39, 39, 226);">$5 Billion+</p>
-            <p class="text-center text-secondary"> Global Revenue</p>
+            <p class="text-center"> Global Revenue</p>
         </div>
         <div style="height: 350px;width: 200px;" class="col-md-6 col-lg-4">
             <img src="../image/large.png" height="100px" width="100px" class="p-3 m-5 m-t-2"
                 style="border: 1px solid orange; border-radius: 50%;background-color: white;">
             <p class="text-center fs-5" style="color: orange;">4th Largest</p>
-            <p class="text-center text-secondary"> Generic Pharmaceutical
+            <p class="text-center"> Generic Pharmaceutical
                 Company Worldwide</p>
         </div>
         <div style="height: 300px;width: 200px;" class="col-md-6 col-lg-4">
             <img src="../image/employeee.png" height="100px" width="100px" class="p-3 m-5 m-t-2"
                 style="border: 1px solid rgb(22, 22, 111); border-radius: 50%;background-color: white;">
             <p class="text-center fs-5" style="color: rgb(39, 39, 226);">38000+</p>
-            <p class="text-center text-secondary"> Employees
+            <p class="text-center"> Employees
                 Across The Globe</p>
         </div>
     </div>
@@ -116,48 +138,48 @@
         <div style="height: 800px;width: 340px;box-shadow: 0px 0px 10px 2px grey;border-radius: 5px;" class="m-4 ">
             <img src="../image/About-us-Driven-by-innovation.jpg" class="m-2 mt-3" height="200">
             <p class="text-primary opacity-75 fs-5 px-3">Diversified Specialty and Generics Portfolio</p>
-            <p class="text-secondary px-3" style="font-size: 15px;"> We manufacture and market a large basket of
+            <p class="px-3" style="font-size: 15px;"> We manufacture and market a large basket of
                 pharmaceutical formulations covering a broad spectrum of chronic and acute therapies. It includes
                 generics, branded generics, specialty, complex or difficult to make technology-intensive products,
                 over-the-counter (OTC), antiretrovirals (ARVs), Active Pharmaceutical Ingredients (APIs) and
                 Intermediates. Our broad portfolio of more than 2000 high quality molecules covers multiple dosage
                 forms, including tablets, capsules, injectables, inhalers, ointments, creams, and liquids.</p>
-            <p class="text-secondary px-3" style="font-size: 15px;"> Every year, we sell over 30 billion doses covering
+            <p class="px-3" style="font-size: 15px;"> Every year, we sell over 30 billion doses covering
                 neuro-psychiatry, cardiology, gastroenterology, anti-infectives, diabetology, oncology, ophthalmology,
                 dermatology, urology, nephrology and respiratory among others.</p>
         </div>
         <div style="height: 800px;width: 340px;box-shadow: 0px 0px 10px 2px grey;border-radius: 5px;" class="m-4 ">
             <img src="../image/About-us-Diversified-speciality-_-generic-portfolio.jpg" class="m-2 mt-3" height="200">
             <p class="text-primary opacity-75 fs-5 px-3">Driven by Innovation</p>
-            <p class="text-secondary px-3" style="font-size: 15px;">The first among Indian pharmaceutical companies to
+            <p class="px-3" style="font-size: 15px;">The first among Indian pharmaceutical companies to
                 realise and embrace the importance of investing in research, we invest up to 7-8% of our global revenues
                 into Research and Development (R&D) every year.</p>
-            <p class="text-secondary px-3" style="font-size: 15px;">Our core strength lies in our ability to excel in
+            <p class="px-3" style="font-size: 15px;">Our core strength lies in our ability to excel in
                 developing generics and technologically complex products backed by our dedicated teams in formulations,
                 process chemistry, and analytical development.</p>
-            <p class="text-secondary px-3" style="font-size: 15px;">Our capabilities extend beyond the development of
+            <p class="px-3" style="font-size: 15px;">Our capabilities extend beyond the development of
                 differentiated products, including liposomal products, inhalers, lyophilized injections, nasal sprays,
                 and controlled release dosage forms.Our R&D team comprises over 2,700 people.</p>
         </div>
         <div style="height: 800px;width: 340px;box-shadow: 0px 0px 10px 2px grey;border-radius: 5px;" class="m-4 ">
             <img src="../image/About-us-Global-footprint.jpg" class="m-2 mt-3" height="200">
             <p class="text-primary opacity-75 fs-5 px-3">Global Footprint</p>
-            <p class="text-secondary px-3" style="font-size: 15px;">From humble beginnings in 1983, Sun Pharma has grown
+            <p class="px-3" style="font-size: 15px;">From humble beginnings in 1983, Sun Pharma has grown
                 to become one of the largest generic pharmaceutical companies worldwide. We are the largest
                 pharmaceutical company in India.</p>
-            <p class="text-secondary px-3" style="font-size: 15px;">In the US, we are among the top 10 generic
+            <p class="px-3" style="font-size: 15px;">In the US, we are among the top 10 generic
                 pharmaceutical companies and are ranked second by prescriptions in the generic dermatology market. </p>
-            <p class="text-secondary px-3" style="font-size: 15px;">We are the largest Indian company in emerging
+            <p class="px-3" style="font-size: 15px;">We are the largest Indian company in emerging
                 markets with a presence in over 80 markets. Brazil, Mexico, Russia, Romania and South Africa are some of
                 our key emerging markets.</p>
-            <P class="text-secondary px-3" style="font-size: 15px;">We are the largest Indian company in emerging
+            <P class="px-3" style="font-size: 15px;">We are the largest Indian company in emerging
                 markets with a presence in over 80 markets. Brazil, Mexico, Russia, Romania and South Africa are some of
                 our key emerging markets.</P>
         </div>
     </div>
     <div class="text-center p-4 m-2" style="box-shadow: 0 0 9px 2px grey;">
         <h3 class=" pt-3 text-primary opacity-75">Our Code Of Conduct</h3>
-        <p class="px-3 pb-4 text-secondary ">Our Global Code of Conduct governs every aspect of our operations.
+        <p class="px-3 pb-4">Our Global Code of Conduct governs every aspect of our operations.
             Sun Pharma is a family of thousands of people, working across many countries,
             speaking multiple languages, and all united, with one common purpose: to make good health accessible and
             affordable to local communities and society at large. Through active fieldwork, dedicated research teams,
@@ -226,23 +248,23 @@
         </div>
     </div>
     <div class="m-3" style="box-shadow: 0 0 10px 1px grey;">
-    <footer class="row d-flex justify-content-evenly text-primary p-5">
-        <div class="footerchild">
-            <h3>About</h3>
+    <footer class="row d-flex justify-content-evenly opacity-75 p-5">
+        <div class="footerchild text-primary">
+            <h3 >About</h3>
             <ul>
                 <li><a href="#">Vision and Values</a></li>
                 <li><a href="#">Team</a></li>
             </ul>
         </div>
-        <div class="footerchild">
-            <h3>Operations</h3>
+        <div class="footerchild text-primary">
+            <h3 >Operations</h3>
             <ul>
                 <li><a href="#">product </a></li>
                 <li><a href="#">Innovation</a></li>
                 <li><a href="#">Quality</a></li>
             </ul>
         </div>
-        <div class="footerchild">
+        <div class="footerchild text-primary">
             <h3>Investors</h3>
             <ul>
                 <li><a href="#">Finantials</a></li>
@@ -250,8 +272,8 @@
                 <li><a href="#">Shareholders Information</a></li>
             </ul>
         </div>
-        <div class="footerchild">
-            <h3>Quick Links</h3>
+        <div class="footerchild text-primary">
+            <h3 >Quick Links</h3>
             <ul>
                 <li><a href="#">Contact Us </a></li>
                 <li><a href="#">Partner with Us</a></li>
