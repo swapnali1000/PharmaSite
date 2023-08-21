@@ -10,34 +10,51 @@
       integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
       crossorigin="anonymous"/>
       <link rel="stylesheet" href="./../css/style.css"/>
+      <style>
+        body {
+            background: aliceblue;
+            color: black;
+            transition: 0.5s ease-in-out;
+        }
+
+        .dark-mode {
+            background: rgb(14, 13, 42);
+            color: white;
+        }
+        </style>
 </head>
-<body>
-  <nav class="nav p-2 shadow-lg p-3 mb-5 bg-body-primary rounded fixed-top">
-    <div>
-      <img src="./../img/pharmamall.jpeg" alt="Logo" class="logo" width="95" height="65" class="d-inline-block align-text-top"></div>
-    <div class="d-flex flex-column">
-      <div>
-        <form class="d-flex" role="search">
+<body id="toggleTheme">
+  
+  <div class="d-flex justify-content-around bg-dark opacity-75 fixed-top p-1 pt-3" style="height: 100px;" >
+    <div style="width: 50px;">
+        <img src="../img/pharmamall.jpeg" height="50" alt="logo">
+    </div>
+    <div class="d-flex flex-column" > <div><form class="d-flex" role="search">
       <input class="form-control me-2" type="search"  placeholder="Search for Product or Brand"  aria-label="Search">
     </form></div>
-<div class="d-flex flex-row"><a class="nav-link btn p-5" href="./order-medicine.html">Order Medicine</a>
-<a class="nav-link btn p-5" href="./shop-by-category.html">Shop by Category</a>
-<a class="nav-link btn p-5" href="./health-services.html">Health Services</a>
-<a class="nav-link btn p-5" href="./health-articles.html">Health Articels</a>
-<a class="nav-link btn p-5" href="./about-us.html">About Us</a>
+    <div class="pt-2">
+        <a href="./order-medicine.html" class=" text-light p-4 fs-5 text-decoration-none">Order Medicine</a>
+        <a href="./shop-by-category.html" class="text-light p-4 fs-5 text-decoration-none">Shop by Category</a>
+        <a href="./health-services.html" class="text-light p-5 fs-5 text-decoration-none">Health Services</a>
+        <a href="./health-article.html" class="text-light p-4 fs-5 text-decoration-none">Health Articels</a>
+        <a href="./about-us.html" class="text-light p-4 fs-5 text-decoration-none">About Us</a>
+    </div></div>
+   <div class="d-flex flex-row-reverse"> <button style="border-radius: 10px;border: none; height: 35px;" class="m-2" onclick="theme()">
+        <img src="../image/icons8-sun-24.png" height="30" width="30">
+    </button>
+   <a href="./order-medicine.html"> <button style="border-radius: 10px;border: none; height: 35px;" class="m-2">
+      <img src="../img/cart.png" height="30" width="30">
+  </button></a>
+  <a href="./login.html"><button style="border-radius: 10px;border: none; height: 35px;" class="m-2">
+  <img src="../img/user (1).png" height="30" width="30"></a>
+</button></div>
 </div>
-</div>
-<div >
-  <a href="./order-medicine.html"><button class="btn btn-info"> <img src="./../img/cart.png" height="40" class="p-2"> Cart</button></a>
-  <a href="./login.html"><button class="btn btn-info"> <img src="./../img/user (1).png" height="40" class="p-2"> Login</button></a>
-</div>
-</nav>
-    <div class="ms-auto p-2 me-auto know-health" style="width: 200px;">
-        <img src="./../img/know-health.jpeg">
+    <div class="ms-auto p-2 me-auto know-health" style="width: 200px; ">
+        <img src="./../img/know-health.jpeg" >
     </div>
     <div class="health-article d-flex flex-row" style="height: 400px;" >
       <img style="width: 400px;" src="./../img/R.jpeg">
-      <div class="health-article text-secondary text-center" style="width: 100%; background-color:  #ccf5ff;" >
+      <div class="health-article text-secondary text-center row" style="width: 100%; background-color:  #ccf5ff;" >
         <h1 >HEALTH ARTICALS</h1>
         <p>Welcome to Know Health, the one-stop destination of all your queries on health and wellbeing. Check out precious tips 
         on Natural Remedies, Beauty, Lifestyle problems, Food & Nutrition and Health & Fitness.
@@ -86,7 +103,57 @@
         <a href="./../index.html"> <button type="button" class="btn btn-secondary btn-view text-light"><b>View</b></button></a>
       </div>
   </div>
-    
+  <footer class="ps-2">
+    <hr/>
+      Keep in touch with us <img src="../image/icons8-twitter-48.png" height="40">
+      <img src="../image/icons8-gmail-48.png" height="40">
+      <img src="../image/icons8-instagram-48.png" height="40">
+      <img src="../image/icons8-linkedin-48.png" height="40">
+      <hr/>
+        <div class="d-flex flex-row" >
+       <div> <b class="ps-3">Shop by Category</b>
+        <hr/>
+<ul class="text-secondary">Shop by Category<br/>
+Beauty & Personal Care<br/>
+Health Food, Gourmet & Beverages<br/>
+Health Drinks & Nutritional Supplements<br/>
+Mother & Baby<br/>
+Ayurvedic & Herbal<br/></ul>
+      </div>
+      <div>
+        <b class="ps-3">Company Overview</b>
+        <hr/>
+<ul class="text-secondary">About Us<br/></ul>
+      </div>
+      <div > <b class="ps-3">Customer Services</b>
+        <hr/>
+<ul class="text-secondary"><a href="./shop-by-category.html" style="text-decoration: none;" >Become A Healthbuddy</a> <br/>
+Contact us<br/>
+Tips<br/>
+Do You Know?<br/>
+Health Articles</a><br/></ul>
+      </div>
+      <div>
+        <b class="ps-3">Customer Policies</b>
+        <hr/>
+<ul class="text-secondary" >F.A.Q<br/>
+Terms & Conditions<br/>
+Privacy Policy<br/>
+Return, Cancellation and Refund Policy<br/>
+Shipping<br/>
+Grievance Redressal Policy</ul>
+      </div>
+      </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous">
+        </script>
+    <script>
+        function theme() {
+            const element = document.getElementById('toggleTheme');
+            element.classList.toggle('dark-mode');
+        }
+    </script>
 </body>
 </html>
 
