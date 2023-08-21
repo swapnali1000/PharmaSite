@@ -9,9 +9,40 @@
 
     </style>
 </head>
-<body class="bg-primary-subtle	">
+<body class="bg-aliceblue" id="toggleTheme">
+    <div class="navbar">
 
-    <div class=" card bg-primary-subtle m-5 border border-0 text-bg-light"> 
+        <div class="d-flex justify-content-around bg-dark opacity-75 fixed-top p-1 pt-3"id="toggleTheme" style="height: 100px;" >
+          <div style="width: 50px;">
+              <img src="../img/pharmamall.jpeg" height="50" alt="logo">
+          </div>
+          <div class="d-flex flex-column" > <div><form class="d-flex" role="search">
+            <input class="form-control me-2" type="search"  placeholder="Search for Product or Brand"  aria-label="Search">
+          </form></div>
+          <div class="pt-2">
+              <a href="../other pages/order-medicine.html" class=" text-light p-4 fs-5 text-decoration-none">Order Medicine</a>
+              <a href="../other pages/shop-by-category.html" class="text-light p-4 fs-5 text-decoration-none">Shop by Category</a>
+              <a href="../other pages/health-services.html" class="text-light p-5 fs-5 text-decoration-none">Health Services</a>
+              <a href="../other pages/health-article.html" class="text-light p-4 fs-5 text-decoration-none">Health Articels</a>
+              <a href="../other pages/about-us.html" class="text-light p-4 fs-5 text-decoration-none">About Us</a>
+          </div></div>
+         <div class="d-flex flex-row-reverse"> <button style="border-radius: 10px;border: none; height: 35px;" class="m-2" onclick="theme()">
+              <img src="../image/icons8-sun-24.png" height="30" width="30">
+          </button>
+         <a href="./order-medicine.html"> <button style="border-radius: 10px;border: none; height: 35px;" class="m-2">
+            <img src="../img/cart.png" height="30" width="30">
+        </button></a>
+        <a href="./login.html"><button style="border-radius: 10px;border: none; height: 35px;" class="m-2">
+        <img src="../img/user (1).png" height="30" width="30"></a>
+      </button></div>
+  
+      </div>
+    
+      <div class="space">
+  
+      </div>
+
+    <div class=" card bg-aliceblue m-5 border border-0 text-bg-light"> 
         <span class=" text-md-center"><h3>5 Best Multivitamins for Women!</h3></span>
     <img  src="https://res.fkhealthplus.com/incom/healtharticle/images/1690974902_body017.jpg"class=" m-4 " >
     We understand that poor nutrition, infections, and a stressful lifestyle can put your health at risk. That's why we're here to talk about something super important: women's nutrition! It's not just about you; it's also about the growth and development of your little ones.
@@ -78,6 +109,27 @@
     Embrace Swisse Ultivite Women's Multivitamin 60 Tablets and see the positive impact it can have on your life. Remember, a balanced diet and healthy habits will complement these tablets, leading you to a happier and healthier you!
 </div>
 
+</script>
+<script>
+function theme() {
+    const element = document.getElementById('toggleTheme');
+    element.classList.toggle('dark-mode');
+}
+</script>
+<style>
+  body {
+      background: aliceblue;
+      color: black;
+      transition: 0.5s ease-in-out;
+  }
+  .space{
+    margin-top: 11vh;
+  }
+  .dark-mode {
+            background: rgb(14, 13, 42);
+            color: white;
+        }
+</style>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
     
 </body>
