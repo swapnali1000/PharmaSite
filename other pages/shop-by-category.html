@@ -1,1 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>javascript project</title>
+</head>
+<link rel="stylesheet" href="../css/shop.css">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+<body id="toggleTheme">
+  
+  <div class="d-flex justify-content-around bg-dark opacity-75 fixed-top p-1 pt-3" style="height: 100px;" >
+    <div style="width: 50px;">
+        <img src="../img/pharmamall.jpeg" height="50" alt="logo">
+    </div>
+    <div class="d-flex flex-column" > <div><form class="d-flex" role="search">
+      <input class="form-control me-2" type="search"  placeholder="Search for Product or Brand"  aria-label="Search">
+    </form></div>
+    <div class="pt-2">
+        <a href="./order-medicine.html" class=" text-light p-4 fs-5 text-decoration-none">Order Medicine</a>
+        <a href="./shop-by-category.html" class="text-light p-4 fs-5 text-decoration-none">Shop by Category</a>
+        <a href="./health-services.html" class="text-light p-5 fs-5 text-decoration-none">Health Services</a>
+        <a href="./health-article.html" class="text-light p-4 fs-5 text-decoration-none">Health Articels</a>
+        <a href="./about-us.html" class="text-light p-4 fs-5 text-decoration-none">About Us</a>
+    </div></div>
+   <div class="d-flex flex-row-reverse"> <button style="border-radius: 10px;border: none; height: 35px;" class="m-2" onclick="theme()">
+        <img src="../image/icons8-sun-24.png" height="30" width="30">
+    </button>
+   <a href="./order-medicine.html"> <button style="border-radius: 10px;border: none; height: 35px;" class="m-2">
+      <img src="../img/cart.png" height="30" width="30">
+  </button></a>
+  <a href="./login.html"><button style="border-radius: 10px;border: none; height: 35px;" class="m-2">
+  <img src="../img/user (1).png" height="30" width="30"></a>
+</button></div>
+</div>
+<div class="container  text-center" style="margin-top: 100px;" id="toggleTheme">
+    <div class="row">
+     <div class="col -md-5 ms-2">
+       <div class="card m-2 p -2 shadow p-2 ">
+        <h5 class=" ms-2 text-info"><b>Nutritional Supplements</b></h5>
+         <img src="https://res.fkhealthplus.com/incom/category/web_all_category/vitamins_and_nutritional_supplements_1085.jpg"/>
+       <p class="text-center text-secondary p-3">Protein Supplement & Children Health</p>
+         
+       </div>
 
+     </div>
+     <div class="col -md-3 ms-2">
+       <div class="card m-2 p -2 shadow p-2">
+        <h5 class="ms-2 text-info" ><b>Mother and Baby</b></h5>
+         <img src="https://res.fkhealthplus.com/incom/category/web_all_category/baby_1078.jpg"/>
+         <p class=" text-center text-secondary p-3">Diaper, Pants, Maternity and Sanitary</p>
+        
+       </div>
+
+     </div>
+     <div class="col -md-3">
+       <div class="card m-2 p -2 shadow p-2" >
+        <h5 class=" ms-5 text-info"><b>Ayurvedic and  Herbal</b></h>
+        <img src="https://res.fkhealthplus.com/incom/category/web_all_category/ayurvedic_and_herbal_1077.jpg" height="150" width="150" />
+         <p class="text-center text-secondary fs-6 p-4">Chyawanprash, Honey & Herbal Juices</p>
+         
+       </div>
+
+     </div>
+    
+
+    </div> 
+ 
+   </div>
+   
+   <div class="container  text-center">
+     <div class="row">
+      <div class="col -md-3 ms-2">
+        <div class="card m-2 p -2 shadow p-2 ">
+         <h5 class=" ms-5 text-info"> <b> Device and Personal</b></h5>
+          <img src="https://res.fkhealthplus.com/incom/category/web_all_category/devices__aids_and_wellness_1081.jpg"/>
+        <p class="text-center text-secondary p-3">BP Monitor & Thermometer</p>
+          
+        </div>
+ 
+      </div>
+      <div class="col -md-3 ms-2">
+        <div class="card m-2 p -2 shadow p-2">
+         <h5 class=" ms-5 text-info"><b>FaceMask and Sanitizer</b></h5>
+          <img src="https://res.fkhealthplus.com/incom/category/web_all_category/20200529135424_4.jpg"/>
+          <p class="text-center text-secondary p-3">Oximeter, Hand Wash & Sanitizer</p>
+         
+        </div>
+ 
+      </div>
+      <div class="col -md-3 ms-2">
+        <div class="card m-2 p -2 shadow p-2">
+         <h5 class=" ms-5 text-info"><b>Orthopedics</b></h5>
+         <img src="https://res.fkhealthplus.com/incom/category/web_all_category/orthopaedics_1084.jpg"/>
+          <h3 class="text-center text-secondary fs-6 p-4">Knee cap & Arm Supporter</h3>
+          
+        </div>
+ 
+      </div>
+     
+ 
+     </div> 
+  
+    </div>
+    
+   <div class="container text-center">
+     <div class="row">
+      <div class="col -md-3 ms-2">
+        <div class="card m-2 p -2 shadow  ">
+         <h5 class=" ms-5 pt-3 pb-2 text-info"><b>Beauty and Personal</b></h5>
+          <img src="https://res.fkhealthplus.com/incom/category/web_all_category/bath_and_body_1079.jpg"/>
+        <p class="text-center ms-5 text-secondary">Soap, Powder & Fiarness Cream</p>
+        </div>
+     </div>
+     <div class="col -md-3 ms-2">
+      <div class="card m-2 p -2 shadow p-2">
+       <h5 class=" ms-5 text-info"><b>Health Food</b></h5>
+        <img src="https://res.fkhealthplus.com/incom/category/web_all_category/20200529135424_4.jpg"/>
+        <p class="text-center p-1 text-secondary">Grocery, Gourmet & Neutritional Supplements</p>
+       
+      </div>
+
+    </div>
+    <div class="col -md-3 ms-2">
+      <div class="card m-2 p -2 shadow p-2">
+       <h5 class=" ms-5 text-info"><b>Devices, Aids & Wellness</b></h5>
+       <img src="https://res.fkhealthplus.com/incom/category/web_all_category/orthopaedics_1084.jpg"/>
+        <h3 class="text-center fs-6 p-2 text-secondary">BP Monitor & Thermometrs</h3>
+        
+      </div>
+      </div> 
+  
+    </div>
+    </div>
+    <footer class="ps-2">
+      <hr/>
+        Keep in touch with us <img src="../image/icons8-twitter-48.png" height="40">
+        <img src="../image/icons8-gmail-48.png" height="40">
+        <img src="../image/icons8-instagram-48.png" height="40">
+        <img src="../image/icons8-linkedin-48.png" height="40">
+        <hr/>
+          <div class="d-flex flex-row" >
+         <div> <b class="ps-3">Shop by Category</b>
+          <hr/>
+  <ul class="text-secondary">Shop by Category<br/>
+  Beauty & Personal Care<br/>
+  Health Food, Gourmet & Beverages<br/>
+  Health Drinks & Nutritional Supplements<br/>
+  Mother & Baby<br/>
+  Ayurvedic & Herbal<br/></ul>
+        </div>
+        <div>
+          <b class="ps-3">Company Overview</b>
+          <hr/>
+  <ul class="text-secondary">About Us<br/></ul>
+        </div>
+        <div > <b class="ps-3">Customer Services</b>
+          <hr/>
+  <ul class="text-secondary"><a href="./shop-by-category.html" style="text-decoration: none;" >Become A Healthbuddy</a> <br/>
+  Contact us<br/>
+  Tips<br/>
+  Do You Know?<br/>
+  Health Articles</a><br/></ul>
+        </div>
+        <div>
+          <b class="ps-3">Customer Policies</b>
+          <hr/>
+  <ul class="text-secondary" >F.A.Q<br/>
+  Terms & Conditions<br/>
+  Privacy Policy<br/>
+  Return, Cancellation and Refund Policy<br/>
+  Shipping<br/>
+  Grievance Redressal Policy</ul>
+        </div>
+        </div>
+      </footer>
+    <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+    crossorigin="anonymous"
+  ></script>
+    <script>
+      function theme() {
+          const element = document.getElementById('toggleTheme');
+          element.classList.toggle('dark-mode');
+      }
+  </script>
+
+    
+    
+</body>
+</html>
