@@ -1,0 +1,35 @@
+.title{
+    text-align: center;
+}
+
+ 
+
+.body_dark{
+    color: white;
+    background-color:  rgb(14, 13, 42);
+    transition: all 0.5s;
+    
+}
+
+.body_light{
+    color: black;
+    background-color: aliceblue;
+    transition: all 0.5s;
+}
+
+.txt{
+    text-decoration: none;
+}
+
+.colorblack{
+    color: black;
+}
+.sub_page_body{
+    background-color:aliceblue;
+}
+.sub_color{
+    color: #666699;;
+}
+
+
+    
