@@ -130,3 +130,10 @@ color: red;
     background: rgb(14, 13, 42);
     color: white;
 }
+@media screen and (min-width: 600px) {
+  .cardz{
+    font-size: small;
+    display: flex;
+    flex-direction: column;
+  }
+}

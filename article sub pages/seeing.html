@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>seeing</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <style>
+    </style>
+</head>
+<body class="bg-aliceblue" id="toggleTheme">
+    <div class="navbar">
+
+        <div class="d-flex justify-content-around bg-dark opacity-75 fixed-top p-1 pt-3" style="height: 100px;" >
+          <div style="width: 50px;">
+              <img src="../img/pharmamall.jpeg" height="50" alt="logo">
+          </div>
+          <div class="d-flex flex-column" > <div><form class="d-flex" role="search">
+            <input class="form-control me-2" type="search"  placeholder="Search for Product or Brand"  aria-label="Search">
+          </form></div>
+          <div class="pt-2">
+              <a href="../other pages/order-medicine.html" class=" text-light p-4 fs-5 text-decoration-none">Order Medicine</a>
+              <a href="../other pages/shop-by-category.html" class="text-light p-4 fs-5 text-decoration-none">Shop by Category</a>
+              <a href="../other pages/health-services.html" class="text-light p-5 fs-5 text-decoration-none">Health Services</a>
+              <a href="../other pages/health-article.html" class="text-light p-4 fs-5 text-decoration-none">Health Articels</a>
+              <a href="../other pages/about-us.html" class="text-light p-4 fs-5 text-decoration-none">About Us</a>
+          </div></div>
+         <div class="d-flex flex-row-reverse"> <button style="border-radius: 10px;border: none; height: 35px;" class="m-2" onclick="theme()">
+              <img src="../image/icons8-sun-24.png" height="30" width="30">
+          </button>
+         <a href="./order-medicine.html"> <button style="border-radius: 10px;border: none; height: 35px;" class="m-2">
+            <img src="../img/cart.png" height="30" width="30">
+        </button></a>
+        <a href="./login.html"><button style="border-radius: 10px;border: none; height: 35px;" class="m-2">
+        <img src="../img/user (1).png" height="30" width="30"></a>
+      </button></div>
+  
+      </div>
+    
+      <div class="space">
+  
+      </div>
+     
+   
+    </div>
+  
+    <div class=" card bg-aliceblue m-5 border border-0 text-bg-light"> 
+        <span class="text-dark text-md-center "><h3>Seeing Clearly: Top Tips for Beating Pink Eye or Conjunctivitis!</h3></span>
+    <img  src="https://res.fkhealthplus.com/incom/healtharticle/images/1691232246_body018.jpg"class=" m-4 " >
+  <p><b>
+       <h3>Key Takeaways:</h3>
+        </br> 
+1.There has been a recent increase in pink eye cases in India, which is an infection that affects the clear layer covering the white part of the eye, making the eyes look reddish or pink.</br>
+2.Watch out for watery eye discharge, redness, swelling, morning eyelid stickiness, light sensitivity, and a history of contact with infected individuals.</br>
+3.To protect yourself from pink eye, practice frequent handwashing, avoid touching your eyes, and be cautious with shared items. If you get infected, use lubricating eye drops, practice good hygiene, and see a doctor for appropriate treatment and relief.</br>
+    </b>
+    </p >
+    <p>With more people getting pink eye (also known as conjunctivitis) in India lately, it's important to know how to keep yourself and your loved ones safe. This article has all the answers to your questions about pink eye and some helpful tips to beat it.</p>
+   <b> Easy Steps to Protect Yourself from Conjunctivitis (Pink Eye)</b> </br>   </br>
+   Follow these simple steps to keep your eyes healthy and free from this irritating condition. Taking precautions can go a long way towards preventing conjunctivitis.</br></br></br>
+
+<b> 1.Frequent Handwashing:</b>Make handwashing a habit! Clean hands can keep germs at bay and reduce the risk of conjunctivitis.</br></br>
+
+<b> 2.Hands Off Your Eyes:</b> Avoid touching or rubbing your eyes, as this can introduce germs and irritants. Keep those hands away and let your eyes stay comfortable.</br></br>
+
+<b>3.Skip Contaminated Waters: </b> Skip Contaminated Waters: Steer clear of swimming in contaminated water. Keeping your eyes away from potentially harmful environments is a smart move.</br></br>
+
+<b>4.See a Doctor:Wear Protective glasses:</b> Give your eyes an extra layer of defense by wearing protective glasses, especially in places where there's a higher risk of infection.</br></br>
+
+<b>5.See a Doctor:</b>See a Doctor: If you notice any symptoms, don't delay. Contact a doctor as soon as possible. Early intervention can make a big difference in preventing the spread of conjunctivitis.</br></br>
+<b>'Here are more details on pink eye, it's causes and symptoms.'
+</br></br>
+What is conjunctivitis?</b>
+</br>
+Pink eye, also known as conjunctivitis, is an infection that affects the conjunctiva, which is the clear layer that surrounds your eyelids and covers the white part of your eye. During infection, the small blood vessels in this layer get inflamed and stand out more. That's why the whites of your eyes may look reddish or pink, and that's how it got its name - pink eye!  </br></br>
+
+Most cases of conjunctivitis are caused by the same viruses as the common cold. It can also happen for other reasons, such as bacterial infections, chemical irritants, traditional eye remedies, or allergies. Sometimes, exposure to toxins and local irritants can also lead to non-infectious conjunctivitis.
+
+
+</div>
+</script>
+<script>
+function theme() {
+    const element = document.getElementById('toggleTheme');
+    element.classList.toggle('dark-mode');
+}
+</script>
+<style>
+  body {
+      background: aliceblue;
+      color: black;
+      transition: 0.5s ease-in-out;
+  }
+  .space{
+    margin-top: 11vh;
+  }
+  .dark-mode {
+            background: rgb(14, 13, 42);
+            color: white;
+        }
+</style>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+    
+</body>
+</html>
