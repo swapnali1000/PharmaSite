@@ -1,25 +1,61 @@
 .title{
     text-align: center;
 }
-.body{
-    background-color: #ccffff;
-}
+
+ 
+
 .body_dark{
     color: white;
-    background-color:  #00b0e6;}
-    body {
-        background: aliceblue;
-        color: black;
-        transition: 0.5s ease-in-out;
-    }
+    background-color:  rgb(14, 13, 42);
+    transition: all 0.5s;
+    
+}
 
-    .dark-mode {
-        background: rgb(14, 13, 42);
-        color: white;
-    }
-    .theme-button 
-{
-    margin: 10px;
-    padding: 5px 10px;
-    cursor: pointer;
-  }
+.body_light{
+    color: black;
+    background-color: aliceblue;
+    transition: all 0.5s;
+}
+
+.txt{
+    text-decoration: none;
+}
+
+.colorblack{
+    color: black;
+}
+.sub_page_body{
+    background-color:aliceblue;
+}
+.sub_color{
+    color: #666699;;
+}
+
+.footerchild {
+    width: 200px;
+}
+
+.footerchild h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.footerchild ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footerchild li {
+    margin-bottom: 8px;
+}
+
+.footerchild a {
+    text-decoration: none;
+}
+
+.footerchild a:hover {
+    text-decoration: underline;
+}
+
+
+    
