@@ -31,31 +31,5 @@
     color: #666699;;
 }
 
-.footerchild {
-    width: 200px;
-}
-
-.footerchild h3 {
-    font-size: 18px;
-    margin-bottom: 10px;
-}
-
-.footerchild ul {
-    list-style: none;
-    padding: 0;
-}
-
-.footerchild li {
-    margin-bottom: 8px;
-}
-
-.footerchild a {
-    text-decoration: none;
-}
-
-.footerchild a:hover {
-    text-decoration: underline;
-}
-
 
     
