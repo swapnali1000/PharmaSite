@@ -26,7 +26,7 @@
         </style>
 </head>
 <body id="toggleTheme">
-  
+  <!--
   <div class="d-flex justify-content-around bg-dark opacity-75 fixed-top p-1 pt-3" style="height: 100px;" >
     <div style="width: 50px;">
         <img src="../img/pharmamall.jpeg" height="50" alt="logo">
@@ -50,7 +50,45 @@
   <a href="./login.html"><button style="border-radius: 10px;border: none; height: 35px;" class="m-2">
   <img src="../img/user (1).png" height="30" width="30"></a>
 </button></div>
-</div>
+</div> -->
+<nav class="navbar navbar-expand-md bg-dark opacity-75 fixed-top">
+  <a class="navbar-brand p-1" href="#">
+      <img src="../img/pharmamall.jpeg" height="50" alt="logo">
+  </a>
+  <button class="navbar-toggler bg-light" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto p-1">
+          <li class="nav-item">
+              <a class="nav-link text-light fs-5" href="./order-medicine.html">Order Medicine</a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link text-light fs-5" href="./shop-by-category.html">Shop by Category</a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link text-light fs-5" href="./health-services.html">Health Services</a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link text-light fs-5" href="./article.html">Health Articles</a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link text-light fs-5" href="./about-us.html">About Us</a>
+          </li>
+          <li class="nav-item">
+              <div class="input-group m-1">
+                  <input type="text" class="form-control" placeholder="Search product or brand">
+                  <button class="btn btn-light opacity-75" type="button">
+                      search
+                  </button>
+              </div>
+          </li>
+      </ul>
+      <button style="border-radius: 10px; border: none;" class="btn btn-light m-1" onclick="theme()">
+          <img src="../image/icons8-sun-24.png" height="30" width="30">
+      </button>
+  </div>
+</nav>
     <div class="ms-auto p-2 me-auto know-health" style="width: 150px;  ">
         <img src="./../img/know-health.jpeg" style="border-radius: 50%;" >
     </div>
